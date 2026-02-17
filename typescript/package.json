@@ -1,0 +1,12 @@
+{
+  "name": "revision-templates-ts",
+  "private": true,
+  "scripts": {
+    "solve": "ts-node"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "ts-node": "^10",
+    "typescript": "^5"
+  }
+}
