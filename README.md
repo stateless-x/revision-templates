@@ -36,10 +36,11 @@ The test suite at the bottom runs automatically and prints pass/fail for each ca
 
 **Run a utils drill** (same pattern)
 ```bash
-npx ts-node utils/map-utils.ts
+npx ts-node utils/freq-map.ts
+npx ts-node utils/group-by.ts
 npx ts-node utils/list-node.ts
-npx ts-node utils/comparator.ts
-npx ts-node utils/validation.ts
+npx ts-node utils/swap.ts
+npx ts-node utils/is-balanced.ts
 ```
 
 ---
@@ -75,10 +76,6 @@ topics/trees/inorder-traversal.ts
 //   Describe what the function should do in plain English.
 //   Include input/output types and any constraints.
 //
-// APPROACH:
-//   1. Step one of your intended approach
-//   2. Step two
-//   3. ...
 //
 // TIME:  O(?)  — explain why
 // SPACE: O(?)  — explain why
